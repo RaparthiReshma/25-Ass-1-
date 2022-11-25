@@ -1,0 +1,17 @@
+//Element in list//
+
+list=[6,7,4,9,2,20,200,190]
+a=int(input("Enter an element:"))
+if a in list:
+    print("The element is foun in list")
+else:
+    print("The element is not foun in the list")
+
+//OUTPUT-1//
+Enter an element:2
+The element is found in list
+> 
+//OUTPUT-2//
+Enter an element:100
+The element is not found in the list
+> 
